@@ -1,0 +1,105 @@
+.class public final synthetic Lm9/r;
+.super Ljava/lang/Object;
+.source "r8-map-id-6fe49df57dd29ad5bed73b56f6f9b5413638df6511bd2c79e70d3c2ded0ad3ec"
+
+# interfaces
+.implements Lq9/r;
+
+
+# static fields
+.field public static final synthetic a:Lm9/r;
+
+
+# direct methods
+.method public static synthetic constructor <clinit>()V
+    .locals 1
+
+    .line 1
+    new-instance v0, Lm9/r;
+
+    .line 2
+    .line 3
+    invoke-direct {v0}, Lm9/r;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    sput-object v0, Lm9/r;->a:Lm9/r;
+
+    .line 7
+    .line 8
+    return-void
+.end method
+
+.method public synthetic constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method
+
+
+# virtual methods
+.method public final synthetic a(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 2
+
+    .line 1
+    check-cast p1, Landroid/os/IBinder;
+
+    .line 2
+    .line 3
+    if-nez p1, :cond_0
+
+    .line 4
+    .line 5
+    const/4 p1, 0x0
+
+    .line 6
+    return-object p1
+
+    .line 7
+    :cond_0
+    const-string v0, "com.google.android.gms.ads.internal.client.IMobileAdsSettingManagerCreator"
+
+    .line 8
+    .line 9
+    invoke-interface {p1, v0}, Landroid/os/IBinder;->queryLocalInterface(Ljava/lang/String;)Landroid/os/IInterface;
+
+    .line 10
+    .line 11
+    .line 12
+    move-result-object v0
+
+    .line 13
+    instance-of v1, v0, Lm9/y1;
+
+    .line 14
+    .line 15
+    if-eqz v1, :cond_1
+
+    .line 16
+    .line 17
+    check-cast v0, Lm9/y1;
+
+    .line 18
+    .line 19
+    return-object v0
+
+    .line 20
+    :cond_1
+    new-instance v0, Lm9/y1;
+
+    .line 21
+    .line 22
+    invoke-direct {v0, p1}, Lm9/y1;-><init>(Landroid/os/IBinder;)V
+
+    .line 23
+    .line 24
+    .line 25
+    return-object v0
+.end method

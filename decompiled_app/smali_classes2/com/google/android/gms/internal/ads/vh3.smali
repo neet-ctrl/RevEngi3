@@ -1,0 +1,70 @@
+.class public final synthetic Lcom/google/android/gms/internal/ads/vh3;
+.super Ljava/lang/Object;
+.source "r8-map-id-6fe49df57dd29ad5bed73b56f6f9b5413638df6511bd2c79e70d3c2ded0ad3ec"
+
+# interfaces
+.implements Lbb/b;
+
+
+# static fields
+.field public static final synthetic a:Lcom/google/android/gms/internal/ads/vh3;
+
+
+# direct methods
+.method public static synthetic constructor <clinit>()V
+    .locals 1
+
+    .line 1
+    new-instance v0, Lcom/google/android/gms/internal/ads/vh3;
+
+    .line 2
+    .line 3
+    invoke-direct {v0}, Lcom/google/android/gms/internal/ads/vh3;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    sput-object v0, Lcom/google/android/gms/internal/ads/vh3;->a:Lcom/google/android/gms/internal/ads/vh3;
+
+    .line 7
+    .line 8
+    return-void
+.end method
+
+.method public synthetic constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method
+
+
+# virtual methods
+.method public final synthetic a(Lbb/i;)Ljava/lang/Object;
+    .locals 1
+
+    .line 1
+    invoke-virtual {p1}, Lbb/i;->o()Z
+
+    .line 2
+    .line 3
+    .line 4
+    move-result p1
+
+    .line 5
+    new-instance v0, Ljava/lang/Boolean;
+
+    .line 6
+    .line 7
+    invoke-direct {v0, p1}, Ljava/lang/Boolean;-><init>(Z)V
+
+    .line 8
+    .line 9
+    .line 10
+    return-object v0
+.end method

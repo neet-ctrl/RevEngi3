@@ -1,0 +1,58 @@
+.class public final Lde/e;
+.super Lde/g;
+.source "r8-map-id-6fe49df57dd29ad5bed73b56f6f9b5413638df6511bd2c79e70d3c2ded0ad3ec"
+
+
+# static fields
+.field public static final a:Lde/e;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    .line 1
+    new-instance v0, Lde/e;
+
+    .line 2
+    .line 3
+    invoke-direct {v0}, Lde/e;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    sput-object v0, Lde/e;->a:Lde/e;
+
+    .line 7
+    .line 8
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Lde/g;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method
+
+
+# virtual methods
+.method public a()J
+    .locals 2
+
+    .line 1
+    invoke-static {}, Ljava/lang/System;->nanoTime()J
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-wide v0
+
+    .line 5
+    return-wide v0
+.end method

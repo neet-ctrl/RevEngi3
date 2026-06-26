@@ -1,0 +1,143 @@
+.class public final Lne/n0;
+.super Lne/e;
+.source "r8-map-id-6fe49df57dd29ad5bed73b56f6f9b5413638df6511bd2c79e70d3c2ded0ad3ec"
+
+
+# instance fields
+.field public final g:Ljava/util/ArrayList;
+
+
+# direct methods
+.method public constructor <init>(Lme/b;Lkd/l;)V
+    .locals 1
+
+    .line 1
+    const-string v0, "json"
+
+    .line 2
+    .line 3
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/t;->g(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 4
+    .line 5
+    .line 6
+    const-string v0, "nodeConsumer"
+
+    .line 7
+    .line 8
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/t;->g(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 9
+    .line 10
+    .line 11
+    const/4 v0, 0x0
+
+    .line 12
+    invoke-direct {p0, p1, p2, v0}, Lne/e;-><init>(Lme/b;Lkd/l;Lkotlin/jvm/internal/k;)V
+
+    .line 13
+    .line 14
+    .line 15
+    new-instance p1, Ljava/util/ArrayList;
+
+    .line 16
+    .line 17
+    invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
+
+    .line 18
+    .line 19
+    .line 20
+    iput-object p1, p0, Lne/n0;->g:Ljava/util/ArrayList;
+
+    .line 21
+    .line 22
+    return-void
+.end method
+
+
+# virtual methods
+.method public a0(Lje/e;I)Ljava/lang/String;
+    .locals 1
+
+    .line 1
+    const-string v0, "descriptor"
+
+    .line 2
+    .line 3
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/t;->g(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 4
+    .line 5
+    .line 6
+    invoke-static {p2}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
+
+    .line 7
+    .line 8
+    .line 9
+    move-result-object p1
+
+    .line 10
+    return-object p1
+.end method
+
+.method public r0()Lme/i;
+    .locals 2
+
+    .line 1
+    new-instance v0, Lme/c;
+
+    .line 2
+    .line 3
+    iget-object v1, p0, Lne/n0;->g:Ljava/util/ArrayList;
+
+    .line 4
+    .line 5
+    invoke-direct {v0, v1}, Lme/c;-><init>(Ljava/util/List;)V
+
+    .line 6
+    .line 7
+    .line 8
+    return-object v0
+.end method
+
+.method public v0(Ljava/lang/String;Lme/i;)V
+    .locals 1
+
+    .line 1
+    const-string v0, "key"
+
+    .line 2
+    .line 3
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/t;->g(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 4
+    .line 5
+    .line 6
+    const-string v0, "element"
+
+    .line 7
+    .line 8
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/t;->g(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 9
+    .line 10
+    .line 11
+    invoke-static {p1}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
+
+    .line 12
+    .line 13
+    .line 14
+    move-result p1
+
+    .line 15
+    iget-object v0, p0, Lne/n0;->g:Ljava/util/ArrayList;
+
+    .line 16
+    .line 17
+    invoke-virtual {v0, p1, p2}, Ljava/util/ArrayList;->add(ILjava/lang/Object;)V
+
+    .line 18
+    .line 19
+    .line 20
+    return-void
+.end method

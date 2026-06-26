@@ -1,0 +1,57 @@
+.class public final synthetic Ly2/p;
+.super Ljava/lang/Object;
+.source "r8-map-id-6fe49df57dd29ad5bed73b56f6f9b5413638df6511bd2c79e70d3c2ded0ad3ec"
+
+# interfaces
+.implements Lkd/a;
+
+
+# instance fields
+.field public final synthetic a:Ly2/q;
+
+
+# direct methods
+.method public synthetic constructor <init>(Ly2/q;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, Ly2/p;->a:Ly2/q;
+
+    .line 5
+    .line 6
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke()Ljava/lang/Object;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Ly2/p;->a:Ly2/q;
+
+    .line 2
+    .line 3
+    invoke-static {v0}, Ly2/q;->d(Ly2/q;)F
+
+    .line 4
+    .line 5
+    .line 6
+    move-result v0
+
+    .line 7
+    invoke-static {v0}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+
+    .line 8
+    .line 9
+    .line 10
+    move-result-object v0
+
+    .line 11
+    return-object v0
+.end method

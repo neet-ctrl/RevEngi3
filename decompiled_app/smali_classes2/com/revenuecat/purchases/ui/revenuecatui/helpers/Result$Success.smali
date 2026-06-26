@@ -1,0 +1,88 @@
+.class public final Lcom/revenuecat/purchases/ui/revenuecatui/helpers/Result$Success;
+.super Lcom/revenuecat/purchases/ui/revenuecatui/helpers/Result;
+.source "r8-map-id-6fe49df57dd29ad5bed73b56f6f9b5413638df6511bd2c79e70d3c2ded0ad3ec"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/revenuecat/purchases/ui/revenuecatui/helpers/Result;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "Success"
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<A:",
+        "Ljava/lang/Object;",
+        ">",
+        "Lcom/revenuecat/purchases/ui/revenuecatui/helpers/Result;"
+    }
+.end annotation
+
+
+# static fields
+.field public static final $stable:I
+
+
+# instance fields
+.field private final value:Ljava/lang/Object;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "TA;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 0
+
+    .line 1
+    return-void
+.end method
+
+.method public constructor <init>(Ljava/lang/Object;)V
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TA;)V"
+        }
+    .end annotation
+
+    .line 1
+    const/4 v0, 0x0
+
+    .line 2
+    invoke-direct {p0, v0}, Lcom/revenuecat/purchases/ui/revenuecatui/helpers/Result;-><init>(Lkotlin/jvm/internal/k;)V
+
+    .line 3
+    .line 4
+    .line 5
+    iput-object p1, p0, Lcom/revenuecat/purchases/ui/revenuecatui/helpers/Result$Success;->value:Ljava/lang/Object;
+
+    .line 6
+    .line 7
+    return-void
+.end method
+
+
+# virtual methods
+.method public final getValue()Ljava/lang/Object;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()TA;"
+        }
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Lcom/revenuecat/purchases/ui/revenuecatui/helpers/Result$Success;->value:Ljava/lang/Object;
+
+    .line 2
+    .line 3
+    return-object v0
+.end method

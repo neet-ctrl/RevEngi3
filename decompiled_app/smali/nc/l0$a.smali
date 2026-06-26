@@ -1,0 +1,68 @@
+.class public Lnc/l0$a;
+.super Ljava/lang/Object;
+.source "r8-map-id-6fe49df57dd29ad5bed73b56f6f9b5413638df6511bd2c79e70d3c2ded0ad3ec"
+
+# interfaces
+.implements Lio/flutter/plugin/platform/i;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lnc/l0;->a(Landroid/content/Context;I)Lio/flutter/plugin/platform/i;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
+
+
+# instance fields
+.field public final synthetic a:Landroid/content/Context;
+
+
+# direct methods
+.method public constructor <init>(Landroid/content/Context;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lnc/l0$a;->a:Landroid/content/Context;
+
+    .line 2
+    .line 3
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+.end method
+
+
+# virtual methods
+.method public dispose()V
+    .locals 0
+
+    .line 1
+    return-void
+.end method
+
+.method public getView()Landroid/view/View;
+    .locals 2
+
+    .line 1
+    new-instance v0, Landroid/view/View;
+
+    .line 2
+    .line 3
+    iget-object v1, p0, Lnc/l0$a;->a:Landroid/content/Context;
+
+    .line 4
+    .line 5
+    invoke-direct {v0, v1}, Landroid/view/View;-><init>(Landroid/content/Context;)V
+
+    .line 6
+    .line 7
+    .line 8
+    return-object v0
+.end method

@@ -1,0 +1,96 @@
+.class public Lgc/m;
+.super Ljava/lang/Object;
+.source "r8-map-id-6fe49df57dd29ad5bed73b56f6f9b5413638df6511bd2c79e70d3c2ded0ad3ec"
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lgc/m$b;
+    }
+.end annotation
+
+
+# instance fields
+.field public final a:Lhc/j;
+
+.field public b:Lgc/m$b;
+
+.field public final c:Lhc/j$c;
+
+
+# direct methods
+.method public constructor <init>(Lxb/a;)V
+    .locals 4
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    new-instance v0, Lgc/m$a;
+
+    .line 5
+    .line 6
+    invoke-direct {v0, p0}, Lgc/m$a;-><init>(Lgc/m;)V
+
+    .line 7
+    .line 8
+    .line 9
+    iput-object v0, p0, Lgc/m;->c:Lhc/j$c;
+
+    .line 10
+    .line 11
+    new-instance v1, Lhc/j;
+
+    .line 12
+    .line 13
+    const-string v2, "flutter/mousecursor"
+
+    .line 14
+    .line 15
+    sget-object v3, Lhc/n;->b:Lhc/n;
+
+    .line 16
+    .line 17
+    invoke-direct {v1, p1, v2, v3}, Lhc/j;-><init>(Lhc/b;Ljava/lang/String;Lhc/k;)V
+
+    .line 18
+    .line 19
+    .line 20
+    iput-object v1, p0, Lgc/m;->a:Lhc/j;
+
+    .line 21
+    .line 22
+    invoke-virtual {v1, v0}, Lhc/j;->e(Lhc/j$c;)V
+
+    .line 23
+    .line 24
+    .line 25
+    return-void
+.end method
+
+.method public static synthetic a(Lgc/m;)Lgc/m$b;
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Lgc/m;->b:Lgc/m$b;
+
+    .line 2
+    .line 3
+    return-object p0
+.end method
+
+
+# virtual methods
+.method public b(Lgc/m$b;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lgc/m;->b:Lgc/m$b;
+
+    .line 2
+    .line 3
+    return-void
+.end method

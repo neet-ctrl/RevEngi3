@@ -1,0 +1,19 @@
+.class public interface abstract Ls7/i$a;
+.super Ljava/lang/Object;
+.source "r8-map-id-6fe49df57dd29ad5bed73b56f6f9b5413638df6511bd2c79e70d3c2ded0ad3ec"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Ls7/i;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "a"
+.end annotation
+
+
+# virtual methods
+.method public abstract a(Lv7/m;Lb8/m;Lq7/d;)Ls7/i;
+.end method

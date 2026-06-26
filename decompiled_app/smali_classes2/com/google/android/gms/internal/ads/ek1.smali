@@ -1,0 +1,23 @@
+.class public interface abstract Lcom/google/android/gms/internal/ads/ek1;
+.super Ljava/lang/Object;
+.source "r8-map-id-6fe49df57dd29ad5bed73b56f6f9b5413638df6511bd2c79e70d3c2ded0ad3ec"
+
+
+# virtual methods
+.method public abstract K(Z)V
+.end method
+
+.method public abstract U(Lcom/google/android/gms/internal/ads/l00;)V
+.end method
+
+.method public abstract c0(Z)V
+.end method
+
+.method public abstract k0(Lcom/google/android/gms/internal/ads/l00;)V
+.end method
+
+.method public abstract y()V
+.end method
+
+.method public abstract z0(Lcom/google/android/gms/internal/ads/l00;)V
+.end method

@@ -1,0 +1,48 @@
+.class public final Lcom/revenuecat/purchases/common/diagnostics/DiagnosticsSynchronizer$Companion;
+.super Ljava/lang/Object;
+.source "r8-map-id-6fe49df57dd29ad5bed73b56f6f9b5413638df6511bd2c79e70d3c2ded0ad3ec"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/revenuecat/purchases/common/diagnostics/DiagnosticsSynchronizer;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "Companion"
+.end annotation
+
+
+# direct methods
+.method private constructor <init>()V
+    .locals 0
+
+    .line 2
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method public synthetic constructor <init>(Lkotlin/jvm/internal/k;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Lcom/revenuecat/purchases/common/diagnostics/DiagnosticsSynchronizer$Companion;-><init>()V
+
+    return-void
+.end method
+
+.method public static synthetic getMAX_EVENTS_TO_SYNC_PER_REQUEST$annotations()V
+    .locals 0
+
+    .line 1
+    return-void
+.end method
+
+.method public static synthetic getMAX_NUMBER_POST_RETRIES$annotations()V
+    .locals 0
+
+    .line 1
+    return-void
+.end method
